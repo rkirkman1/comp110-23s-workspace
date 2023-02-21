@@ -3,7 +3,7 @@ __author__ = "730401129"
 
 word: str = input("Enter a five character word: ")
 
-if  len(word) != 5:
+if len(word) != 5:
     print("Error: Word must contain 5 characters")
     exit()
 else:
@@ -36,7 +36,7 @@ if (character == word[4]):
 number_1 = str(number)
 
 if number_1 == "0":
-    print ("No instances of " + character + " found in " + word)
+    print("No instances of " + character + " found in " + word)
 else:
     if number_1 == "1":
         print("1 instance of " + character + " found in " + word)
